@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "ads": [
+    {
+      "id": "reader_inline_every_n_pages",
+      "type": "in_page",
+      "title": "While you read",
+      "image_url": "https://via.placeholder.com/600x120.png?text=In-page+Ad",
+      "redirect_url": "https://www.amazon.in",
+      "placement": "reader_inline",
+      "frequency": {
+        "show_every_n_pages": 5,
+        "max_impressions_per_session": 4,
+        "min_seconds_between_impressions": 180
+      },
+      "enabled": false,
+      "priority": 0,
+      "extensions": {}
+    },
+    {
+      "id": "reader_bottom_banner",
+      "type": "banner",
+      "title": "",
+      "image_url": "https://via.placeholder.com/320x50.png?text=Reader+Banner",
+      "redirect_url": "https://www.amazon.in",
+      "placement": "reader_bottom",
+      "frequency": {
+        "max_impressions_per_session": 20,
+        "min_seconds_between_impressions": 60
+      },
+      "enabled": false,
+      "priority": 0,
+      "extensions": {}
+    }
+  ],
+  "extensions": {}
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "ads": [
+    {
+      "id": "home_banner_sample",
+      "type": "banner",
+      "title": "",
+      "image_url": "https://via.placeholder.com/728x90.png?text=Banner+Ad",
+      "redirect_url": "https://www.amazon.in",
+      "placement": "home_top",
+      "frequency": {
+        "max_impressions_per_session": 10,
+        "min_seconds_between_impressions": 120
+      },
+      "enabled": false,
+      "priority": 0,
+      "extensions": {}
+    },
+    {
+      "id": "home_native_between_sections",
+      "type": "native",
+      "title": "Sponsored",
+      "image_url": "https://via.placeholder.com/320x180.png?text=Native",
+      "redirect_url": "https://www.amazon.in",
+      "placement": "home_between_paper_sections",
+      "frequency": {
+        "max_impressions_per_session": 3,
+        "min_seconds_between_impressions": 300
+      },
+      "enabled": false,
+      "priority": 1,
+      "extensions": {}
+    },
+    {
+      "id": "interstitial_open_reader",
+      "type": "interstitial",
+      "title": "Special offer",
+      "image_url": "https://via.placeholder.com/400x600.png?text=Interstitial",
+      "redirect_url": "https://www.amazon.in",
+      "placement": "before_reader",
+      "frequency": {
+        "max_impressions_per_session": 1,
+        "min_seconds_between_impressions": 600
+      },
+      "enabled": false,
+      "priority": 0,
+      "extensions": {}
+    }
+  ],
+  "extensions": {}
+}
