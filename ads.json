@@ -12,7 +12,7 @@
         "max_impressions_per_session": 10,
         "min_seconds_between_impressions": 120
       },
-      "enabled": false,
+      "enabled": true,
       "priority": 0,
       "extensions": {}
     },
@@ -27,7 +27,7 @@
         "max_impressions_per_session": 3,
         "min_seconds_between_impressions": 300
       },
-      "enabled": false,
+      "enabled": true,
       "priority": 1,
       "extensions": {}
     },
@@ -42,7 +42,7 @@
         "max_impressions_per_session": 1,
         "min_seconds_between_impressions": 600
       },
-      "enabled": false,
+      "enabled": true,
       "priority": 0,
       "extensions": {}
     }
