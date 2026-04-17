@@ -5,15 +5,15 @@
       "id": "reader_inline_every_n_pages",
       "type": "in_page",
       "title": "While you read",
-      "image_url": "https://via.placeholder.com/600x120.png?text=In-page+Ad",
-      "redirect_url": "https://www.amazon.in",
+      "image_url": "https://raw.githubusercontent.com/karthik288m/app-backend-config/refs/heads/main/vert.png",
+      "redirect_url": "https://amzn.to/3OcC7Yl",
       "placement": "reader_inline",
       "frequency": {
         "show_every_n_pages": 5,
         "max_impressions_per_session": 4,
         "min_seconds_between_impressions": 180
       },
-      "enabled": false,
+      "enabled": true,
       "priority": 0,
       "extensions": {}
     },
@@ -21,14 +21,14 @@
       "id": "reader_bottom_banner",
       "type": "banner",
       "title": "",
-      "image_url": "https://via.placeholder.com/320x50.png?text=Reader+Banner",
-      "redirect_url": "https://www.amazon.in",
+      "image_url": "https://raw.githubusercontent.com/karthik288m/app-backend-config/refs/heads/main/vert.png",
+      "redirect_url": "https://amzn.to/3OcC7Yl",
       "placement": "reader_bottom",
       "frequency": {
         "max_impressions_per_session": 20,
         "min_seconds_between_impressions": 60
       },
-      "enabled": false,
+      "enabled": true,
       "priority": 0,
       "extensions": {}
     }

@@ -5,8 +5,8 @@
       "id": "home_banner_sample",
       "type": "banner",
       "title": "",
-      "image_url": "https://via.placeholder.com/728x90.png?text=Banner+Ad",
-      "redirect_url": "https://www.amazon.in",
+      "image_url": "https://github.com/karthik288m/app-backend-config/blob/main/banner.png?raw=true",
+      "redirect_url": "https://amzn.to/3OcC7Yl",
       "placement": "home_top",
       "frequency": {
         "max_impressions_per_session": 10,
@@ -20,8 +20,8 @@
       "id": "home_native_between_sections",
       "type": "native",
       "title": "Sponsored",
-      "image_url": "https://via.placeholder.com/320x180.png?text=Native",
-      "redirect_url": "https://www.amazon.in",
+      "image_url": "https://github.com/karthik288m/app-backend-config/blob/main/banner.png?raw=true",
+      "redirect_url": "https://amzn.to/3OcC7Yl",
       "placement": "home_between_paper_sections",
       "frequency": {
         "max_impressions_per_session": 3,
@@ -35,8 +35,8 @@
       "id": "interstitial_open_reader",
       "type": "interstitial",
       "title": "Special offer",
-      "image_url": "https://via.placeholder.com/400x600.png?text=Interstitial",
-      "redirect_url": "https://www.amazon.in",
+      "image_url": "https://raw.githubusercontent.com/karthik288m/app-backend-config/refs/heads/main/vert.png",
+      "redirect_url": "https://amzn.to/3OcC7Yl",
       "placement": "before_reader",
       "frequency": {
         "max_impressions_per_session": 1,
