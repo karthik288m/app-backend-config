@@ -10,8 +10,8 @@
       "placement": "reader_inline",
       "frequency": {
         "show_every_n_pages": 5,
-        "max_impressions_per_session": 4,
-        "min_seconds_between_impressions": 180
+        "max_impressions_per_session": 100,
+        "min_seconds_between_impressions": 0
       },
       "enabled": true,
       "priority": 0,
@@ -25,8 +25,8 @@
       "redirect_url": "https://amzn.to/3OcC7Yl",
       "placement": "reader_bottom",
       "frequency": {
-        "max_impressions_per_session": 20,
-        "min_seconds_between_impressions": 60
+        "max_impressions_per_session": 100,
+        "min_seconds_between_impressions": 0
       },
       "enabled": true,
       "priority": 0,

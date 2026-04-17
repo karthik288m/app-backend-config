@@ -9,8 +9,8 @@
       "redirect_url": "https://amzn.to/3OcC7Yl",
       "placement": "home_top",
       "frequency": {
-        "max_impressions_per_session": 10,
-        "min_seconds_between_impressions": 120
+        "max_impressions_per_session": 150,
+        "min_seconds_between_impressions": 0
       },
       "enabled": true,
       "priority": 0,
@@ -24,8 +24,8 @@
       "redirect_url": "https://amzn.to/3OcC7Yl",
       "placement": "home_between_paper_sections",
       "frequency": {
-        "max_impressions_per_session": 3,
-        "min_seconds_between_impressions": 300
+        "max_impressions_per_session": 150,
+        "min_seconds_between_impressions": 0
       },
       "enabled": true,
       "priority": 1,
@@ -39,8 +39,8 @@
       "redirect_url": "https://amzn.to/3OcC7Yl",
       "placement": "before_reader",
       "frequency": {
-        "max_impressions_per_session": 1,
-        "min_seconds_between_impressions": 600
+        "max_impressions_per_session": 150,
+        "min_seconds_between_impressions": 0
       },
       "enabled": true,
       "priority": 0,
