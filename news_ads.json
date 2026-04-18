@@ -1,37 +1,37 @@
 {
-  "schema_version": 1,
-  "ads": [
-    {
-      "id": "reader_inline_every_n_pages",
-      "type": "in_page",
-      "title": "While you read",
-      "image_url": "https://raw.githubusercontent.com/karthik288m/app-backend-config/refs/heads/main/vert.png",
-      "redirect_url": "https://amzn.to/3OcC7Yl",
-      "placement": "reader_inline",
-      "frequency": {
-        "show_every_n_pages": 5,
-        "max_impressions_per_session": 100,
-        "min_seconds_between_impressions": 0
-      },
-      "enabled": true,
-      "priority": 0,
-      "extensions": {}
-    },
-    {
-      "id": "reader_bottom_banner",
-      "type": "banner",
-      "title": "",
-      "image_url": "https://raw.githubusercontent.com/karthik288m/app-backend-config/refs/heads/main/vert.png",
-      "redirect_url": "https://amzn.to/3OcC7Yl",
-      "placement": "reader_bottom",
-      "frequency": {
-        "max_impressions_per_session": 100,
-        "min_seconds_between_impressions": 0
-      },
-      "enabled": true,
-      "priority": 0,
-      "extensions": {}
-    }
-  ],
-  "extensions": {}
+    "schema_version": 1,
+    "ads": [
+        {
+            "id": "reader_inline_every_n_pages",
+            "type": "in_page",
+            "title": "While you read",
+            "image_url": "https://raw.githubusercontent.com/karthik288m/app-backend-config/refs/heads/main/vert.png",
+            "redirect_url": "https://amzn.to/3OcC7Yl",
+            "placement": "reader_inline",
+            "frequency": {
+                "show_every_n_pages": 5,
+                "max_impressions_per_session": 100,
+                "min_seconds_between_impressions": 0
+            },
+            "enabled": false,
+            "priority": 0,
+            "extensions": []
+        },
+        {
+            "id": "reader_bottom_banner",
+            "type": "banner",
+            "title": "",
+            "image_url": "https://raw.githubusercontent.com/karthik288m/app-backend-config/refs/heads/main/vert.png",
+            "redirect_url": "https://amzn.to/3OcC7Yl",
+            "placement": "reader_bottom",
+            "frequency": {
+                "max_impressions_per_session": 100,
+                "min_seconds_between_impressions": 0
+            },
+            "enabled": false,
+            "priority": 0,
+            "extensions": []
+        }
+    ],
+    "extensions": []
 }

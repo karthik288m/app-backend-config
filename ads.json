@@ -1,51 +1,51 @@
 {
-  "schema_version": 1,
-  "ads": [
-    {
-      "id": "home_banner_sample",
-      "type": "banner",
-      "title": "",
-      "image_url": "https://github.com/karthik288m/app-backend-config/blob/main/banner.png?raw=true",
-      "redirect_url": "https://amzn.to/3OcC7Yl",
-      "placement": "home_top",
-      "frequency": {
-        "max_impressions_per_session": 150,
-        "min_seconds_between_impressions": 0
-      },
-      "enabled": true,
-      "priority": 0,
-      "extensions": {}
-    },
-    {
-      "id": "home_native_between_sections",
-      "type": "native",
-      "title": "Sponsored",
-      "image_url": "https://github.com/karthik288m/app-backend-config/blob/main/banner.png?raw=true",
-      "redirect_url": "https://amzn.to/3OcC7Yl",
-      "placement": "home_between_paper_sections",
-      "frequency": {
-        "max_impressions_per_session": 150,
-        "min_seconds_between_impressions": 0
-      },
-      "enabled": true,
-      "priority": 1,
-      "extensions": {}
-    },
-    {
-      "id": "interstitial_open_reader",
-      "type": "interstitial",
-      "title": "Special offer",
-      "image_url": "https://raw.githubusercontent.com/karthik288m/app-backend-config/refs/heads/main/vert.png",
-      "redirect_url": "https://amzn.to/3OcC7Yl",
-      "placement": "before_reader",
-      "frequency": {
-        "max_impressions_per_session": 150,
-        "min_seconds_between_impressions": 0
-      },
-      "enabled": true,
-      "priority": 0,
-      "extensions": {}
-    }
-  ],
-  "extensions": {}
+    "schema_version": 1,
+    "ads": [
+        {
+            "id": "home_banner_sample",
+            "type": "banner",
+            "title": "",
+            "image_url": "https://github.com/karthik288m/app-backend-config/blob/main/banner.png?raw=true",
+            "redirect_url": "https://amzn.to/3OcC7Yl",
+            "placement": "home_top",
+            "frequency": {
+                "max_impressions_per_session": 150,
+                "min_seconds_between_impressions": 0
+            },
+            "enabled": false,
+            "priority": 0,
+            "extensions": []
+        },
+        {
+            "id": "home_native_between_sections",
+            "type": "native",
+            "title": "Sponsored",
+            "image_url": "https://github.com/karthik288m/app-backend-config/blob/main/banner.png?raw=true",
+            "redirect_url": "https://amzn.to/3OcC7Yl",
+            "placement": "home_between_paper_sections",
+            "frequency": {
+                "max_impressions_per_session": 150,
+                "min_seconds_between_impressions": 0
+            },
+            "enabled": false,
+            "priority": 1,
+            "extensions": []
+        },
+        {
+            "id": "interstitial_open_reader",
+            "type": "interstitial",
+            "title": "Special offer",
+            "image_url": "https://raw.githubusercontent.com/karthik288m/app-backend-config/refs/heads/main/vert.png",
+            "redirect_url": "https://amzn.to/3OcC7Yl",
+            "placement": "before_reader",
+            "frequency": {
+                "max_impressions_per_session": 150,
+                "min_seconds_between_impressions": 0
+            },
+            "enabled": false,
+            "priority": 0,
+            "extensions": []
+        }
+    ],
+    "extensions": []
 }
